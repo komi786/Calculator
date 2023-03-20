@@ -14,6 +14,7 @@
 		9CB4772F29C46785003D51C6 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4772E29C46785003D51C6 /* CalculatorTests.swift */; };
 		9CB4773929C46785003D51C6 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4773829C46785003D51C6 /* CalculatorUITests.swift */; };
 		9CB4773B29C46785003D51C6 /* CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4773A29C46785003D51C6 /* CalculatorUITestsLaunchTests.swift */; };
+		9CB4774829C46D3F003D51C6 /* CalcButtonenum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4774729C46D3F003D51C6 /* CalcButtonenum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9CB4773429C46785003D51C6 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB4773829C46785003D51C6 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		9CB4773A29C46785003D51C6 /* CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9CB4774729C46D3F003D51C6 /* CalcButtonenum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcButtonenum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				9CB4771D29C4677E003D51C6 /* CalculatorApp.swift */,
 				9CB4771F29C4677E003D51C6 /* ContentView.swift */,
+				9CB4774729C46D3F003D51C6 /* CalcButtonenum.swift */,
 				9CB4772129C46784003D51C6 /* Assets.xcassets */,
 				9CB4772329C46784003D51C6 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB4774829C46D3F003D51C6 /* CalcButtonenum.swift in Sources */,
 				9CB4772029C4677E003D51C6 /* ContentView.swift in Sources */,
 				9CB4771E29C4677E003D51C6 /* CalculatorApp.swift in Sources */,
 			);
